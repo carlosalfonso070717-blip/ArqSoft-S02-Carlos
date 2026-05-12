@@ -81,6 +81,13 @@ namespace Ahorcado
             foreach (char c in _palabraSecreta)
                 Console.Write(_letrasUsadas.Contains(c) ? c : '_');
             Console.WriteLine();
+
+            // Agrégalo al final del método MostrarTablero(), antes de la última llave }
+            if (_intentosRestantes <= 3)
+            {
+                Console.WriteLine($"Pista: la palabra empieza con '{_palabraSecreta[0]}'");
+            }
+
         }
 
         private void MostrarAhorcado()
