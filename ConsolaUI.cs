@@ -56,5 +56,19 @@ namespace Ahorcado
             };
             Console.WriteLine(etapas[6 - _motor.IntentosRestantes]);
         }
+
+        public static string PedirCategoria()
+        {
+            Console.Clear();
+            Console.WriteLine("=== SELECCIONA UNA CATEGORÍA ===");
+            Console.WriteLine("1. Arquitectura");
+            Console.WriteLine("2. POO");
+            Console.WriteLine("3. .NET");
+            Console.Write("\nIngresa el nombre de la categoría (Arquitectura, POO, .NET): ");
+
+            string entrada = Console.ReadLine()?.Trim();
+            return entrada;
+        }
     }
 }
+
