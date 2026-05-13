@@ -43,6 +43,14 @@ El juego está implementado siguiendo buenas prácticas de diseño:
 - **→** (Flecha derecha): Mover hacia la derecha
 - **Q**: Salir del juego
 
+## Imágenes
+
+<img width="328" height="197" alt="image" src="https://github.com/user-attachments/assets/f55682fc-12f1-45fc-aeae-6d7162a43f51" />
+
+<img width="376" height="563" alt="image" src="https://github.com/user-attachments/assets/a8dbefc6-a9c4-4f29-b30e-8e879d28c2a3" />
+
+
+
 ## Cláusula de IA
 Yo Carlos Alfonso Llanes Rodriguez declaro haber usado IA, específicamente GEMINI y GitHub Copilot, para:
 - Desarrollar la integración del juego Viborita al proyecto existente.
